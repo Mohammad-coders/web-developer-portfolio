@@ -8,6 +8,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* common shared  */
 .text-primary {
     color: #FD6E0A;
@@ -23,6 +24,7 @@ body {
     border: none;
     margin-right: 30px;
 }
+
 .sectio-title {
     color: #181818;
     text-align: center;
@@ -111,6 +113,7 @@ nav li a {
     font-size: 20px;
     font-weight: 400;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -125,7 +128,7 @@ nav>h3 {
 
 /* main */
 
-main{
+main {
     margin: 0px 230px;
     /* justify-content: center; */
 }
@@ -164,10 +167,34 @@ main{
 
 /* What I Do */
 
-#section-description{
+#section-description {
     padding: 30px 130px;
+    margin-bottom: 0px;
 }
-.skills-container{
+
+.skills-container {
     display: flex;
-    padding: 30px 30px 30px 200px;
+    margin-top: 50px;
+    gap: 30px;
+}
+.skill {
+    padding: 30px 30px 30px 30px;
+    width: 190px;
+    height: 265px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+    width: 71%;
+    max-width: 145px;
+    height: 140px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.skill-title{
+    margin-bottom: 20px;
 }
