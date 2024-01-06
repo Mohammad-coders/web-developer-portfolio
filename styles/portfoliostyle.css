@@ -2,8 +2,40 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-h3{
-    width: 120px;
-    height: 600px;
-    color: red;
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav > h3{
+    font-size: 45px;
+    font-weight: 800;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+.btn-nav{
+    padding: 15px 35px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 40px;
+}
+nav li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
 }
