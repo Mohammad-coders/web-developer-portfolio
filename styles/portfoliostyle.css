@@ -8,19 +8,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-nav>h3 {
-    font-size: 45px;
-    font-weight: 800;
-    margin-right: 620px;
-}
-
+/* common shared  */
 .text-primary {
     color: #FD6E0A;
 }
@@ -35,27 +23,24 @@ nav>h3 {
     border: none;
     margin-right: 30px;
 }
-
-/* .btn-nav{
-    
-} */
-nav>ul {
-    display: flex;
-    align-items: center;
+.sectio-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 }
 
-nav li {
-    list-style: none;
-    margin-right: 40px;
-}
-
-nav li a {
-    text-decoration: none;
-    color: #474747;
-    font-size: 20px;
+.sectio-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
     font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
+/* header */
 #header {
     /* margin: 0; */
     /* padding: 0; */
@@ -109,24 +94,80 @@ nav li a {
     /* height: 60px; */
 }
 
-.about{
+/* nav bar */
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav>h3 {
+    font-size: 45px;
+    font-weight: 800;
+    margin-right: 620px;
+}
+
+/* main */
+
+main{
+    margin: 0px 230px;
+    /* justify-content: center; */
+}
+
+/* about */
+.about {
     padding: 130px;
     border-radius: 10px;
     background-color: #FFF8F3;
     margin: 130px 0px;
-}
-.sectio-title {
-    color: #181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
+    /* justify-content: center; */
 }
 
-.sectio-description {
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+
+.about-info-title {
     color: #757575;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 0px;
+    margin-top: 30px;
+}
+
+.about-info-descreption {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+/* What I Do */
+
+#section-description{
+    padding: 30px 130px;
+}
+.skills-container{
+    display: flex;
+    padding: 30px 30px 30px 200px;
 }
