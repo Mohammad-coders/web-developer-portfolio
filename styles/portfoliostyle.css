@@ -246,15 +246,20 @@ main {
 
 .footer {
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     padding: 90px 160px;
 }
 
+.footer-column {
+    width: 50%;
+}
+
 .footer-title {
     color: #181818;
-    margin-top: 130px;
+    /* margin-top: 130px; */
     margin-bottom: 0;
-    text-align: center;
+    /* text-align: center; */
     font-size: 25px;
     font-weight: 700;
 }
@@ -262,7 +267,7 @@ main {
 .footer-description {
     max-width: 400px;
     margin-top: 20px;
-    margin-left: 230px;
+    /* margin-left: 130px; */
     color: #474747;
     font-size: 16px;
     font-weight: 400;
@@ -270,13 +275,30 @@ main {
     /* line-height: 28px; */
 }
 
+
 .social-links {
-    margin-left: 220px;
+    /* margin-left: 220px; */
 }
-.social-links img{
+
+.social-links img {
     margin-right: 15px;
     margin-top: 20px;
 }
-form .information{
+
+form .information input,
+textarea {
     display: block;
+    /* margin: 20px 0px 24px 150px; */
+    margin-top: 20px;
+}
+
+form .information input[type="text"],
+input[type="email"],
+textarea {
+    width: 320px;
+}
+
+form .information input[type="text"],
+input[type="email"] {
+    height: 45px;
 }
