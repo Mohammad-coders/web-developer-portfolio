@@ -234,10 +234,49 @@ main {
     font-size: 25px;
     font-weight: 700;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin: 50px auto 130px auto;
 }
-#btn-cv-download{
+
+#btn-cv-download {
     padding: 18px 17px 18px 51px;
+}
+
+.footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 90px 160px;
+}
+
+.footer-title {
+    color: #181818;
+    margin-top: 130px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.footer-description {
+    max-width: 400px;
+    margin-top: 20px;
+    margin-left: 230px;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    /* line-height: 28px; */
+}
+
+.social-links {
+    margin-left: 220px;
+}
+.social-links img{
+    margin-right: 15px;
+    margin-top: 20px;
+}
+form .information{
+    display: block;
 }
